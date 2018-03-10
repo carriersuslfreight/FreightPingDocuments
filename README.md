@@ -11,12 +11,11 @@ application is backgrounded.
 ### Initial Startup:
 - The application will make a request to the web server to get the reporting interval time
     - The response will be in XML format and indicate number of minutes
-    - If the connection cannot be made, and error dialog is shown
-
+    - If a network or server error is received, a default interval value will be used
 
 ### Phone Number Field:
 - User will enter phone number once on startup, but have option to change the number later.
-- Field will accept only digits, with no extra characters such as ( ) or -
+- Field will accept only digits, with no non-numeric characters such as ( ) or -
 - Field will be validated for containing 10 digits
 - ? If user enters < 10 digits, an error dialog box is shown
 - The phone number will be saved to preferences and shown to the user on subsequent startups.
@@ -32,7 +31,7 @@ application is backgrounded.
 
 ### Location Reporting:
 - The app will report location using the retrieved reporting interval.
-- The app will report location when the app is backgrounded
+- The app will continue to report location when the app is put into the background
 - The app will not report location when the app is not in a running state.
 - ? If the app cannot report location, an error dialog will be displayed to user, message depending on error condition:
     - No network or GPS available

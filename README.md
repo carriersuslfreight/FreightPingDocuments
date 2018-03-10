@@ -1,4 +1,4 @@
-# Freight Ping
+# USL Freight Ping
 
 The user of this application will install the app from either the Apple App Store or Google Play
 Store.  On initial startup will enter a valid phone number with area code, and click a call to

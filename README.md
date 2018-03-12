@@ -37,4 +37,9 @@ application is backgrounded.
     - No network or GPS available
     - Web service down
 
-
+### Error Scenarios (what to do if):
+- Network unavailable
+- Network available, web service unavailable
+- Web service responds with non-success
+- GPS unavailable
+- Phone number entry validation error
